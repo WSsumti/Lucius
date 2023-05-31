@@ -7,7 +7,11 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { NavbarlogoComponent } from './components/navbar/navbarlogo/navbarlogo.component';
 import { NavbarcontentComponent } from './components/navbar/navbarcontent/navbarcontent.component';
 import { NavbaruserComponent } from './components/navbar/navbaruser/navbaruser.component';
-import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { MainContentComponent } from './components/maincontent/maincontent.component';
+import { SidebarComponent } from './components/maincontent/sidebar/sidebar.component';
+import { ContentComponent } from './components/maincontent/content/content.component';
+import { ChatbarComponent } from './components/maincontent/chatbar/chatbar.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +20,15 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     NavbarlogoComponent,
     NavbarcontentComponent,
     NavbaruserComponent,
-    SidebarComponent
+    MainContentComponent,
+    SidebarComponent,
+    ContentComponent,
+    ChatbarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
