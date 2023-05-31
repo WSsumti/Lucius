@@ -1,6 +1,11 @@
 # Lucius
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.2.
+This project is about building a real-estate web app
+
+## Setup
+
+Install Angular Cli by running `npm install -g @angular/cli`.
+Install all the needed packages, run `npm install`. If encounter any vulnerability reports, fix them with: `npm audit fix`
 
 ## Development server
 
