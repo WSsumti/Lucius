@@ -12,6 +12,7 @@ import { MainContentComponent } from './components/maincontent/maincontent.compo
 import { SidebarComponent } from './components/maincontent/sidebar/sidebar.component';
 import { ContentComponent } from './components/maincontent/content/content.component';
 import { ChatbarComponent } from './components/maincontent/chatbar/chatbar.component';
+import { ShareModule } from 'src/share/share.module';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ChatbarComponent } from './components/maincontent/chatbar/chatbar.compo
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    ShareModule
   ],
   providers: [],
   bootstrap: [AppComponent]
