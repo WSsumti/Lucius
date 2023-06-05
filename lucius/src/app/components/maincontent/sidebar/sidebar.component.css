@@ -9,4 +9,5 @@ ul li a {
 }
 ul li:hover {
   background-color: #dbdbd0;
+  cursor: pointer;
 }

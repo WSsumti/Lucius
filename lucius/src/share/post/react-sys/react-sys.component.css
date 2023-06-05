@@ -1,6 +1,7 @@
 div div div div:hover {
   background-color: lightgray;
   border-radius: 0.5rem;
+  cursor: pointer;
 }
 p {
   font-size: 14px;
