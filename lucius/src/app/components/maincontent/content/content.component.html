@@ -4,101 +4,16 @@
   style="height: 100%"
 >
   <div class="list-group list-group-flush border-bottom scrollarea">
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>text test</div>
-    <div>nunohihi</div>
-    <div>nunohihi</div>
+    <div
+      style="
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      "
+      class="card"
+      *ngFor="let item of sampleData"
+    >
+      <app-post [Name]="item.Owner" [Content]="item.Content"></app-post>
+    </div>
   </div>
 </div>

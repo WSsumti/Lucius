@@ -1,0 +1,10 @@
+div div div div:hover {
+  background-color: lightgray;
+  border-radius: 0.5rem;
+}
+p {
+  font-size: 14px;
+}
+fa-icon {
+  font-size: 14px;
+}

@@ -1,5 +1,6 @@
 ul li {
   border-radius: 0.5rem;
+  padding: 0.5rem;
   font-size: medium;
 }
 ul li a {

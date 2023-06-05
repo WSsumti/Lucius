@@ -1,40 +1,19 @@
-<div style="width: 100%; padding-left: 1.5rem; padding-top: 2rem">
-  <ul class="nav nav-pills flex-column mb-auto">
-    <!-- start of ngFor-->
-    <!-- <li class="nav-item">
-      <a class="nav-link text-black">
-        <fa-icon [icon]="groupIcon"></fa-icon> Group 1
-      </a>
-    </li>
-    <li>
-      <a class="nav-link text-black">
-        <fa-icon [icon]="groupIcon"></fa-icon> Group 2
-      </a>
-    </li>
-    <li>
-      <a class="nav-link text-black"
-        ><fa-icon [icon]="groupIcon"></fa-icon> Group 3
-      </a>
-    </li>
-    <li>
-      <a class="nav-link text-black">
-        <fa-icon [icon]="groupIcon"></fa-icon> Group 4
-      </a>
-    </li>
-    <li>
-      <a class="nav-link text-black">
-        <fa-icon [icon]="groupIcon"></fa-icon> Group 5
-      </a>
-    </li> -->
-
-    <li *ngFor="let item of sampleData">
-      <app-brief-previous-post
-        [Name]="{{item.Name}}"
-        [Owner]="{{item.Owner}}"
-      ></app-brief-previous-post>
-    </li>
-
-    <!-- end of ngFor-->
-  </ul>
-  <hr />
+<!-- start of ngFor-->
+<div
+  class="d-flex flex-column align-items-stretch flex-shrink-0 bg-white"
+  style="height: 100%; padding-top: 2rem"
+>
+  <div class="list-group list-group-flush border-bottom scrollarea">
+    <ul class="nav nav-pills">
+      <li
+        *ngFor="let item of sampleData"
+        style="margin-bottom: 1rem; width: 100%"
+      >
+        <app-brief-previous-post
+          [Name]="item.Name"
+          [Owner]="item.Owner"
+        ></app-brief-previous-post>
+      </li>
+    </ul>
+  </div>
 </div>
