@@ -15,5 +15,5 @@ This is a view of our platform:
 
 - User view:
 <p align="center">
-  <img src="https://github.com/WSsumti/Lucius/new/main/user.png">
+  <img src="https://github.com/WSsumti/Lucius/blob/main/user.png">
 </p>
