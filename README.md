@@ -2,6 +2,7 @@
 Lucius is a real-estate web app that will connect every people in the world. We trade, sell, buy haunted houses if they really want to own one. 
 
 We offer you a friendly platform to trade, buy or sell haunted houses. 
+> **Unfortunatly, we haven't finish our project yet. We will update more soon
 
 ## Why haunted houses?
 Our earth is getting more and more crowded and house needed increases over time. 
