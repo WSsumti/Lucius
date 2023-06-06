@@ -7,9 +7,9 @@ We offer you a friendly platform to trade, buy or sell haunted houses.
 ## Why haunted houses?
 Our earth is getting more and more crowded and house needed increases over time. 
 
-Further, to solve lack of house, we want to offer you a place to sell, or buy [Processed] haunted house. 
+Further, to solve lack of house, we want to offer you a place to sell, or buy [Processed]() haunted house. 
 
-Our haunted houses are being [proccessed] : Some one has lived in the house for an ammount of time and still be fine. 
+Our haunted houses are being [proccessed]() : Some one has lived in the house for an ammount of time and still be fine. 
 
 ## Website view:
 This is a view of our platform:
