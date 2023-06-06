@@ -13,6 +13,8 @@ import { SidebarComponent } from './components/maincontent/sidebar/sidebar.compo
 import { ContentComponent } from './components/maincontent/content/content.component';
 import { ChatbarComponent } from './components/maincontent/chatbar/chatbar.component';
 import { ShareModule } from 'src/share/share.module';
+import { WelcomeUserComponent } from './welcome-user/welcome-user.component';
+import { WelcomeGuestComponent } from './welcome-guest/welcome-guest.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ShareModule } from 'src/share/share.module';
     MainContentComponent,
     SidebarComponent,
     ContentComponent,
-    ChatbarComponent
+    ChatbarComponent,
+    WelcomeUserComponent,
+    WelcomeGuestComponent
   ],
   imports: [
     BrowserModule,

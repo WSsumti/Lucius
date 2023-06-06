@@ -7,6 +7,8 @@ import { AppModule } from 'src/app/app.module';
 import { PostComponent } from './post/post.component';
 import { ReactSysComponent } from './post/react-sys/react-sys.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { GuestNavComponent } from './guest-nav/guest-nav.component';
+import { UserNavComponent } from './user-nav/user-nav.component';
 
 @NgModule({
   declarations: [
@@ -15,8 +17,16 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     BriefPreviousPostComponent,
     PostComponent,
     ReactSysComponent,
+    GuestNavComponent,
+    UserNavComponent,
   ],
   imports: [CommonModule, FontAwesomeModule],
-  exports: [BriefPreviousPostComponent, ChatAgencyComponent, PostComponent],
+  exports: [
+    BriefPreviousPostComponent,
+    ChatAgencyComponent,
+    PostComponent,
+    GuestNavComponent,
+    UserNavComponent,
+  ],
 })
 export class ShareModule {}

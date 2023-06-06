@@ -1,0 +1,13 @@
+.log {
+  background-color: #cacaca;
+  width: 5.5rem;
+}
+.log:hover {
+  background-color: #dbdbd0;
+}
+.sign {
+  width: 5.5rem;
+}
+.sign:hover {
+  background-color: #dbdbd0;
+}

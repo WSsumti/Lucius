@@ -3,9 +3,9 @@ import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
-export class AppComponent{
-  title: string = 'lucius'
-  isLogin: boolean = false;
+export class AppComponent {
+  title: string = 'lucius';
+  isLogin: boolean = true;
 }
